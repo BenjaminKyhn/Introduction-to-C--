@@ -40,14 +40,13 @@ void printResult(string word){
 }
 
 int main(){
-    string word1 = "Mel";
-    string word2 = "Stilling";
-    
-    //Print the result of isIsogram(word1) to the console
-    printResult(word1);
+    string word;
 
-    //Print the result of isIsogram(word2) to the console
-    printResult(word2);
+    cout << "Enter a word to check if it's an isogram: \n";
+    cin >> word;
+    
+    //Print the result of isIsogram(word) to the console
+    printResult(word);
         
     return 0;
 }
