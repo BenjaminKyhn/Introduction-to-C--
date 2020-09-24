@@ -32,21 +32,23 @@ bool isIsogram(string word){
 
 void printResult(string word){
     if (isIsogram(word) == true){
-        cout << word + " is an isogram\n";
+        cout << word + " is an isogram\n\n";
     }
     else{
-        cout << word + " has repeating letters and is not an isogram\n";
+        cout << word + " has repeating letters and is not an isogram\n\n";
     }
 }
 
 int main(){
     string word;
 
-    cout << "Enter a word to check if it's an isogram: \n";
-    cin >> word;
+    while (true){
+        cout << "Enter a word to check if it's an isogram: \n";
+        cin >> word;
     
-    //Print the result of isIsogram(word) to the console
-    printResult(word);
-        
+        //Print the result of isIsogram(word) to the console
+        printResult(word);
+    }
+
     return 0;
 }
