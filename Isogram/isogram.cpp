@@ -3,6 +3,7 @@
 #include<algorithm>
 using namespace std;
 
+//Functions have to be declared before they can be called in main
 string toLowerCase(string word);
 bool isIsogram(string word);
 void printResult(string word);
