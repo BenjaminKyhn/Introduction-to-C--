@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include<algorithm>
+#include <algorithm>
 using namespace std;
 
 //Functions have to be declared before they can be called in main
